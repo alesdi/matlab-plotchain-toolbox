@@ -1,6 +1,6 @@
 function [s, f] = ptSpectrum(samples, fs)
-%MSPECTRUM Compute the spectrum of the given waveform
-%   [s, f] = MSPECTRUM(samples, fs) returns the spectrum and frequency
+%PTSPECTRUM Compute the spectrum of the given waveform
+%   [s, f] = PTSPECTRUM(samples, fs) returns the spectrum and frequency
 %   vectors given the samples vector and sampling frequency
 
 samples = samples - mean(samples);

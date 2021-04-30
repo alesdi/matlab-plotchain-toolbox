@@ -1,6 +1,6 @@
 function [thd] = ptTHD(x, fs, f0)
-%MTHD Custum Total Harmonic Component computation
-%   thd = MTHD(x, fs[, f0]) returns the ratio between the RMS value of
+%PTTHD Custum Total Harmonic Component computation
+%   thd = PTTHD(x, fs[, f0]) returns the ratio between the RMS value of
 %   6 subharmonics and the fundamental component, assumed as the closest
 %   peak to the given f0 frequency within 50% tolerance. If f0 is not
 %   specified, the absolute peak is assumed.

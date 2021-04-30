@@ -1,7 +1,5 @@
 classdef ptCell < handle
-    %MFIGURE Preconfigured figure management class
-    %   On creation displays a blank figure with preconfigured graphical
-    %   features
+    %PTCELL A single cell of a ptFigure
     
     properties
         plotIndex = 1
@@ -13,9 +11,7 @@ classdef ptCell < handle
     
     methods
         function obj = ptCell()
-            %MFIGURE Construct an instance of this class
-            %   Opens a new figure and set its dimensions and styling
-            %   according to type
+            %PTCELL Constructs an instance of this class
         end
         
         function plot(obj, name, x, y, style, color, width)

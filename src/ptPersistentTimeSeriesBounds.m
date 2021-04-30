@@ -1,5 +1,5 @@
 function [bounds] = ptPersistentTimeSeriesBounds(t, y, storeName, invalidate)
-    %MPERSISTENTPROMPTEDBOUNDS Returns a struct that defines time bounds on a
+    %PTPERSISTENTPROMPTEDBOUNDS Returns a struct that defines time bounds on a
     % time series plot, given the time 't' and value 'y' vectors. When
     % possible, bounds are loaded from persistent storage.  If the
     % optional argument 'invalidate' is true or if the field does not exist,

@@ -1,5 +1,5 @@
 function ptInit(figuresFolder, clearfigures)
-    %MINIT Basic initialization function for any script
+    %PTINIT Basic initialization function for any script
     %   Close all windows, clear the workspace, initialize the global timer
     %   and, if specified, clear the figure folder, add libraries
     clc;

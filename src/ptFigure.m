@@ -1,5 +1,5 @@
 classdef ptFigure < handle
-    %MFIGURE Preconfigured figure management class
+    %PTFIGURE Preconfigured figure management class
     %   On creation displays a blank figure with preconfigured graphical
     %   features
     

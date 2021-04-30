@@ -1,5 +1,5 @@
 classdef ptDataset < handle
-    %MDATASET Preconfigured dataset management class
+    %PTDATASET Preconfigured dataset management class
     %   On creation loads data from a specified file
     
     properties

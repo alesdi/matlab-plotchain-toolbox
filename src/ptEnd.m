@@ -1,6 +1,6 @@
 function ptEnd()
-    %MEND Conclusive script operations
-    %   MEND() Prints the total execution time and sets to false the global
+    %PTEND Conclusive script operations
+    %   Prints the total execution time and sets to false the global
     %   Execution indicator "fullExecution".
     global ptScriptTimer fullExecution;
     

@@ -1,5 +1,5 @@
 classdef ptStore < handle
-    %MSTORE A simple folder-based persistent data storage
+    %PTSTORE A simple folder-based persistent data storage
     
     properties (Access=private)
         data
