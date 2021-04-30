@@ -1,0 +1,6 @@
+# Autosave and cache
+._*
+*.asv
+
+# Build output
+build/
