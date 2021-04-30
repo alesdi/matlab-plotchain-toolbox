@@ -1,6 +1,6 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="C:\Users\AlessandroDiano\Documents\MATLAB\libraries\mToolkit\mToolbox.prj" location="C:\Users\AlessandroDiano\Documents\MATLAB\libraries\mToolkit" name="mToolbox" target="target.toolbox" target-name="Package Toolbox">
-    <param.appname>mToolbox</param.appname>
+  <configuration file="C:\Users\AlessandroDiano\Documents\MATLAB\libraries\mToolkit\ptToolbox.prj" location="C:\Users\AlessandroDiano\Documents\MATLAB\libraries\mToolkit" name="ptToolbox" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>ptToolbox</param.appname>
     <param.authnamewatermark>Alessandro Diano</param.authnamewatermark>
     <param.email />
     <param.company />
@@ -8,7 +8,7 @@
     <param.description />
     <param.screenshot>${PROJECT_ROOT}\src\icon.png</param.screenshot>
     <param.version>1.0.1</param.version>
-    <param.output>${PROJECT_ROOT}\mToolbox.mltbx</param.output>
+    <param.output>${PROJECT_ROOT}\ptToolbox.mltbx</param.output>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -93,7 +93,7 @@
     <fileset.depfun.excluded />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\AlessandroDiano\Documents\MATLAB\libraries\mToolkit" name="mToolbox.mltbx" optional="false">C:\Users\AlessandroDiano\Documents\MATLAB\libraries\mToolkit\mToolbox.mltbx</file>
+      <file location="C:\Users\AlessandroDiano\Documents\MATLAB\libraries\mToolkit" name="ptToolbox.mltbx" optional="false">C:\Users\AlessandroDiano\Documents\MATLAB\libraries\mToolkit\ptToolbox.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>
