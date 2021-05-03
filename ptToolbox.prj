@@ -1,13 +1,13 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="C:\Users\AlessandroDiano\Documents\MATLAB\libraries\mToolkit\ptToolbox.prj" location="C:\Users\AlessandroDiano\Documents\MATLAB\libraries\mToolkit" name="ptToolbox" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="241670326" file="C:\Users\AlessandroDiano\Documents\MATLAB\libraries\matlab-plotchain-toolbox\ptToolbox.prj" location="C:\Users\AlessandroDiano\Documents\MATLAB\libraries\matlab-plotchain-toolbox" name="ptToolbox" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>ptToolbox</param.appname>
     <param.authnamewatermark>Alessandro Diano</param.authnamewatermark>
     <param.email />
     <param.company />
     <param.summary>A MATLAB toolbox to easily create coherent LaTeX-style plots with an elegant method chaining syntax</param.summary>
-    <param.description />
+    <param.description>https://github.com/alessandrodiano/matlab-plotchain-toolbox</param.description>
     <param.screenshot>${PROJECT_ROOT}\src\icon.png</param.screenshot>
-    <param.version>1.0.1</param.version>
+    <param.version>1.0.3</param.version>
     <param.output>${PROJECT_ROOT}\ptToolbox.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -41,7 +41,6 @@
     <unset>
       <param.email />
       <param.company />
-      <param.description />
       <param.output />
       <param.products.name />
       <param.products.id />
@@ -77,23 +76,22 @@
     </fileset.rootdir>
     <fileset.rootfiles>
       <file>${PROJECT_ROOT}\src\icon.png</file>
-      <file>${PROJECT_ROOT}\src\mCell.m</file>
-      <file>${PROJECT_ROOT}\src\mDataset.m</file>
-      <file>${PROJECT_ROOT}\src\mEnd.m</file>
-      <file>${PROJECT_ROOT}\src\mFigure.m</file>
-      <file>${PROJECT_ROOT}\src\mInit.m</file>
-      <file>${PROJECT_ROOT}\src\mPalette.m</file>
-      <file>${PROJECT_ROOT}\src\mPersistentTimeSeriesBounds.m</file>
-      <file>${PROJECT_ROOT}\src\mSpectrum.m</file>
-      <file>${PROJECT_ROOT}\src\mStore.m</file>
-      <file>${PROJECT_ROOT}\src\mTHD.m</file>
-      <file>${PROJECT_ROOT}\src\mZeroCrossings.m</file>
+      <file>${PROJECT_ROOT}\src\ptCell.m</file>
+      <file>${PROJECT_ROOT}\src\ptDataset.m</file>
+      <file>${PROJECT_ROOT}\src\ptEnd.m</file>
+      <file>${PROJECT_ROOT}\src\ptFigure.m</file>
+      <file>${PROJECT_ROOT}\src\ptInit.m</file>
+      <file>${PROJECT_ROOT}\src\ptPalette.m</file>
+      <file>${PROJECT_ROOT}\src\ptPersistentTimeSeriesBounds.m</file>
+      <file>${PROJECT_ROOT}\src\ptSpectrum.m</file>
+      <file>${PROJECT_ROOT}\src\ptStore.m</file>
+      <file>${PROJECT_ROOT}\src\ptTHD.m</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
     <fileset.depfun.excluded />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\AlessandroDiano\Documents\MATLAB\libraries\mToolkit" name="ptToolbox.mltbx" optional="false">C:\Users\AlessandroDiano\Documents\MATLAB\libraries\mToolkit\ptToolbox.mltbx</file>
+      <file location="C:\Users\AlessandroDiano\Documents\MATLAB\libraries\matlab-plotchain-toolbox" name="ptToolbox.mltbx" optional="false">C:\Users\AlessandroDiano\Documents\MATLAB\libraries\matlab-plotchain-toolbox\ptToolbox.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>
