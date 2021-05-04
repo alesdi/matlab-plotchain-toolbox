@@ -2,7 +2,7 @@
 
 A MATLAB toolbox to easily create LaTeX-style plots with an elegant method chaining syntax. The toolbox also integrates miscellaneous utility functions.
 
-## Available classes and function
+## Available Classes and Functions
 - **ptInit:** performs standard initialization actions (clear workspace and console), prepares the folder for saving figures and initializes an execution timer
 - **ptEnd:** terminates the script and shows the total execution time, if ptInit was used correctly
 - **ptFigure:** wrapper class to create a pre-styled figure with dedicated methods for layout and plots (refer to <code>help</code> for usage).
